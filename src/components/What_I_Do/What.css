@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+
+.col2 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.section-title {
+  font-family: Nunito;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.section-title h2 {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 38px;
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  position: relative;
+}
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  width: 50px;
+  margin: auto;
+  background: #ea4020;
+}
+.section-title p{
+    margin: 0;
+    font-size: 18px;
+}
+.col3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+}
+.feature-box-1 {
+    padding: 32px;
+    background: #1c1d24;
+    text-align: center;
+    border: 1px solid #373b47;
+    transition: ease all 0.35s;
+    position: relative;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.feature-box-1:hover{
+    top: -5px;
+}
+.icon{
+    height: 120px;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-box-1 .icon img {
+    max-height: 100%;
+    max-width: 218px;
+}
+.feature-box-1 h5 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 22px;
+    position: relative;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+    font-family: Nunito;
+}
+.feature-box-1 h5:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: 2px;
+    margin: auto;
+    background: #ea4020;
+}
+.feature-box-1 p {
+    font-family: Nunito;
+    margin: 0;
+}

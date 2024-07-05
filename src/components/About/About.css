@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.About_container {
+  font-family: Nunito;
+  background-color: #131416;
+}
+.information_container {
+  display: flex;
+  gap: 1.1rem;
+  /* justify-content: center; */
+  align-items: center;
+  /* flex-direction: column; */
+  /* padding: 50px; */
+  color: white;
+  margin-top: 20px;
+}
+.About_container_content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.information_container .left_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.information_container .right_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.person_image img {
+  width: 100%;
+  height: 100%;
+}
+.Skill-section {
+  background-color: #1c1d24;
+}
+
+.achivements {
+  background-color: #1c1d24;
+  padding: 15px;
+}
+.lower_content {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.achivements_content {
+  position: relative;
+}
+
+.achivements_content_left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.achivements_content_right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.achivements_content_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  box-shadow: 0 10px 9px rgba(0, 0, 0, 0.2);
+  background-color: #1c1d24;
+  margin-top: -100px;
+  position: relative;
+}
+.section {
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row {
+  
+  align-items: center;
+}
+.col {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.Skill-section .typo-box h6 {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 450px;
+}
+.skill-lt h6 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+.skill-bar {
+  background: #eee;
+  background-color: #343a40;
+}
+.skill-lt .skill-bar .skill-bar-in {
+  width: 0;
+  transition: width 1.55s ease;
+  height: 5px;
+  position: relative;
+}
+.theme-bg {
+    background-color: #ea4020;
+}
+.skill-lt .skill-bar .skill-bar-in span {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-size: 14px;
+}
+.skill-lt:not(:first-child) {
+    margin-top: 30px;
+}

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.col6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.section-title h2 {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 800;
+  /* font-size: 38px; */
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  position: relative;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.portfolio-content {
+  position: relative;
+  height: 1918.5px;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+.grid-item {
+  padding: 12px;
+  width: 100%;
+}
+.portfolio-box-1 {
+  background: #ffffff;
+  position: relative;
+}
+.portfolio-box-1 .portfolio-img {
+  position: relative;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+.portfolio-box-1 .portfolio-img .portfolio-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  transition: ease all 0.35s;
+  opacity: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.px-btn.white::before{
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-right: 1px solid transparent;
+}
+.px-btn{
+    line-height: 50px;
+}
+.px-btn .white{
+    color: #ffffff;
+
+}
+.px-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: transparent;
+    border: 1px solid #ea4020;
+    border-right: 1px solid transparent;
+    transition: ease all 0.35s;
+    width: 50px;
+    height: 50px;
+}
+.px-btn span{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    
+}
+.px-btn .arrow{
+    width: 13px;
+    height: 2px;
+    background: currentColor;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 25px;
+    font-family: Nunito;
+}
+i{
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+
+}
+
+.px-btn .arrow:after {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid currentColor;
+    border-top: 2px solid currentColor;
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: 0;
+    display: inline-block;
+    /* -webkit-transform: rotate(45deg); */
+    transform: rotate(45deg);
+}
+.portfolio-box-1 .portfolio-info {
+    font-family: Nunito;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 1;
+}
+.portfolio-box-1:hover .portfolio-img .portfolio-icon {
+    opacity: 1;
+}
+ .white{
+    font-family: Nunito;
+    width: 38%;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.Home_container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 101vh;
+  background-image: url(../../assets/image/home-banner-dark.png);
+  background-size: cover;
+  background-position: 65% center;
+  background-repeat: no-repeat;
+  font-family: Nunito;
+}
+
+.Home_Content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  flex-grow: 1;
+  padding: 10px;
+  width: 100%;
+  max-width: 406px;
+  margin: auto;
+}
+
+.toggle-icon {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+}
+
+.mainContent .header {
+  font-weight: 800;
+  font-family: Nunito;
+  font-size: 35px;
+}
+
+.mainContent .Hello {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: rgba(12, 12, 12, 0.658);
+}
+
+.mainContent .Hello h1 {
+  word-spacing: -4px;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+.mainContent .Hello p {
+  font-size: 18px;
+  color: white;
+}
+
+.px-btn.white {
+  color: #ffffff;
+}
+
+.px-btn {
+  padding: 0 37px 0 20px;
+  margin-top: 20px;
+  line-height: 50px;
+  position: relative;
+  display: inline-block;
+  background: none;
+  width: 50%;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.px-btn.white::before {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid transparent;
+}
+
+.px-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background: transparent;
+  transition: ease all 0.35s;
+  width: 50px;
+  height: 50px;
+}
+
+.px-btn:hover::before {
+  width: 100%;
+  background-color: #e84a2d;
+  transform: scale(1.03);
+}
+
+.px-btn .span {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.px-btn.white .span {
+  color: #ffffff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .mainContent {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.footer {
+    padding: 20px 0;
+    position: relative;
+    background: #131416;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.col-md-6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer p {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+}
+.text-center {
+    text-align: center;
+    font-family: Nunito;
+    font-size: 26px;
+}   
